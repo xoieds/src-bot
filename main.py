@@ -1,3 +1,11 @@
+import discord
+from flask import Flask
+from dotenv import load_dotenv
+import os
+import json
+import requests 
+import http.server
+import socketserver
 #starts a webserver so that repl.it keeps it online 
 import flaskwebsvr
 
